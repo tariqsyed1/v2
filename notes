@@ -1,0 +1,16 @@
+Website to do:
+
+-Add gutters to increase padding space
+-Finish side pane
+-Finish main pane
+
+Ideas:
+
+-Use particles.js + some dakr color like #181818
+-Make itnefactive + clickable
+-Add two boxes for each pane, with blurred
+background (no focus)
+Use fontawesome to get icons at desired gray color
+for mini sidebar
+
+Have information readable by blurred backgrounds
