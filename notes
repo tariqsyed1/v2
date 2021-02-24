@@ -1,4 +1,7 @@
 Website to do:
+Done: typed.js
+Fix icons on hover
+
 
 -Ensure website is responsive
 -Finish side pane
@@ -20,6 +23,6 @@ Main things left to do:
 Move inline css to external css (and finish dealing with icons)
 Add typed.js
 Add particles.js to background
-Add blurred backgrounds
 Fix icons on hover
-Make left sidebar smaller
+Make left sidebar smaller?
+Add animation on open
