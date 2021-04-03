@@ -4,24 +4,24 @@ function App() {
   return (
     <div className="App">
       <Background />
-      <SideContent />
-      <MainContent />
+      <LeftContent />
+      <RightContent />
     </div>
   );
 }
 
-function SideContent() {
+function LeftContent() {
   return (
-    <div className="SideContent">
+    <div className="LeftContent">
       <h1>Tariq Syed</h1>
       <h4>Toronto, Canada | hello@tariqsyed.me</h4>
     </div>
   );
 }
 
-function MainContent() {
+function RightContent() {
   return (
-    <div className="MainContent">
+    <div className="RightContent">
       <h1>ABOUT</h1>
     </div>
   )
