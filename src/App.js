@@ -1,4 +1,5 @@
 import './App.css';
+import Background from './component/Background'
 
 function App() {
   return (
@@ -23,14 +24,11 @@ function RightContent() {
   return (
     <div className="RightContent">
       <h1>ABOUT</h1>
+      <p>Hey there! I'm Tariq</p>
+      <p>I'm a third year computer science student at York University.</p>
+      
     </div>
   )
-}
-
-function Background() {
-  return (
-    null
-  );
 }
  
 
