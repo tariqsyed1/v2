@@ -11,15 +11,16 @@ class Background extends React.Component {
     this.vantaEffect = WAVES({
       el: 'body',
       THREE: THREE,
-      mouseControls: true,
+      mouseControls: false,
       touchControls: false,
-      gyroControls: false,
+      gyroControls: true,
       minHeight: 200.00,
       minWidth: 200.00,
       scale: 1.00,
       scaleMobile: 1.00,
       color: '#101010',
-      shininess: 5.00
+      shininess: 15.00,
+      waveSpeed: 0.45
     })
   }
   componentWillUnmount() {

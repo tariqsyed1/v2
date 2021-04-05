@@ -10,6 +10,13 @@
   font-weight: 100;
 }
 
+.LeftContent {
+  margin: 0px 5% 0px 0px;
+}
+
+.RightContent {
+  margin: 0px 0px 0px 5%;
+}
 
 .App-link {
   color: #61dafb;
