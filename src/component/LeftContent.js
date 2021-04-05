@@ -1,7 +1,5 @@
 import React from 'react'
 import Typed from 'react-typed'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import logo from '../assets/img/tariq.jpg'
 import './panel.css'
 
