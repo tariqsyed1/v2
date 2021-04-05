@@ -1,6 +1,6 @@
 import React from 'react'
 import WAVES from 'vanta/dist/vanta.waves.min'
-import * as THREE from '../vanta/three.min.js'
+import * as THREE from '../assets/vanta/three.min.js'
 
 class Background extends React.Component {
   constructor() {
@@ -12,14 +12,14 @@ class Background extends React.Component {
       el: 'body',
       THREE: THREE,
       mouseControls: true,
-      touchControls: true,
+      touchControls: false,
       gyroControls: false,
       minHeight: 200.00,
       minWidth: 200.00,
       scale: 1.00,
       scaleMobile: 1.00,
       color: '#101010',
-      shininess: 6.00
+      shininess: 5.00
     })
   }
   componentWillUnmount() {

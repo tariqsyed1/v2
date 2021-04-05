@@ -1,0 +1,45 @@
+.Tariq {
+    height:auto;
+    width: 240px;
+    border-radius: 50%;
+}
+
+.LeftContent {
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+}
+
+#Typed {
+    font-size: 40px
+
+}
+
+a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+h1 {
+    color: #fff;
+}
+
+.RightContent {
+    text-align: left;
+    width: 525px;
+
+}
+
+#bold-text {
+    font-weight: 700;
+}
+
+#wave {
+    width: 20px;
+}

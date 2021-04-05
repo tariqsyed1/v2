@@ -5,8 +5,8 @@
   flex-direction:row;
   align-items: center;
   justify-content:center;
-  font-size: calc(10px + vmin);
-  color: #bebebe;
+  font-size: 18px;
+  color: #D3D3D3;
   font-weight: 100;
 }
 
