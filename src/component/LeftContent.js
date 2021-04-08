@@ -1,6 +1,6 @@
 import React from 'react'
 import Typed from 'react-typed'
-import logo from '../assets/img/tariq.jpg'
+import logo from '../assets/img/tariq.png'
 import './panel.css'
 
 class LeftContent extends React.Component {
