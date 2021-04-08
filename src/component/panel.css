@@ -26,14 +26,19 @@ a:hover {
     opacity: 0.5;
 }
 
-h1 {
-    color: #fff;
+.hello-text {
+    font-size: 2em;
 }
+
 
 .RightContent {
     text-align: left;
-    width: 525px;
+    width: 550px;
 
+}
+
+#right-text{
+    float: right;
 }
 
 #bold-text {
@@ -41,5 +46,5 @@ h1 {
 }
 
 #wave {
-    width: 20px;
+    width: 32px;
 }
