@@ -9,7 +9,7 @@ class Experience extends React.Component {
   }
   render() {
     return (
-        <div className="Experience">
+        <div>
             <p><span id="bold-text">{this.props.name}</span> • {this.props.position} <span id="right-text">{this.props.date}</span></p>
             <p>{this.props.desc}</p>
             

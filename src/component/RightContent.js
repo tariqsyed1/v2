@@ -16,10 +16,13 @@ class RightContent extends React.Component {
         <div className="RightContent" data-aos='fade-up'>
             <div className='About'>
                 <p className="hello-text">Hey there! I'm <span id="bold-text">Tariq</span> <img id="wave" src={wave} alt="Wave Emoji" /></p>
+                <p>I'm a <span id="bold-text">third year computer science</span> student at <span id="bold-text">York University</span>.</p>
+                
+            </div>
+            <div className="Experience">
                 <h2>EXPERIENCE</h2>
                 <Experience name="PRN Digital" position="Software Engineer Intern" date="Summer 2021" />
                 <Experience name="CaseWare" position="Test Developer Intern" date="Winter 2021" />
-                <Experience name="York University" position="BSc Computer Science" date="Summer 2023" />
             </div>
             <div className="Projects">
               <h2>PROJECTS</h2>

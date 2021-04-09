@@ -44,6 +44,10 @@ a:hover {
     font-weight: 700;
 }
 
+#italic-text {
+    font-style:italic;
+}
+
 #wave {
     width: 32px;
 }

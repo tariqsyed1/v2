@@ -21,7 +21,11 @@ class LeftContent extends React.Component {
             startDelay={100}
             />
           </h1>
-          <p>Toronto, Canada | <a href="mailto:hello@tariqsyed.me">hello@tariqsyed.me</a></p>
+          <p id="Subheading">Toronto, Canada | <a href="mailto:hello@tariqsyed.me">hello@tariqsyed.me</a></p>
+          <div id="Icons">
+            
+          </div>
+
         </div>
       );
   }
