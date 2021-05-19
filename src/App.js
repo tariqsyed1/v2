@@ -1,6 +1,5 @@
 import React from'react'
 import './App.css';
-import Background from './component/Background'
 import LeftContent from './component/LeftContent'
 import RightContent from './component/RightContent'
 import AOS from 'aos';
@@ -10,14 +9,16 @@ class App extends React.Component {
   componentDidMount(){
     AOS.init({
       duration: 1000,
-      delay : 100
-    })
+      disable: function() {
+        var maxWidth = 992;
+        return window.innerWidth < maxWidth;
+      }
+    });
   }
   render(){
     return(
       <div>
           <div className="App">
-            <Background />
             <LeftContent />
             <RightContent />
           </div>

@@ -11,8 +11,8 @@ class Project extends React.Component {
   render() {
     return <div>
       <p>
-        <span id='bold-text'>{this.props.name}</span> • {this.props.language} • <a href={this.props.link}>Repository</a>
-        <p>{this.props.description}</p>
+        <span id='bold-text'>{this.props.name}</span> • {this.props.language} • <a href={this.props.link}>Code</a>
+        <p id="desc">{this.props.description}</p>
       </p>
     
     </div>

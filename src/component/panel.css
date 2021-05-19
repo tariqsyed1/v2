@@ -1,41 +1,30 @@
-.Tariq {
-    height:auto;
-    width: 300px;
-}
-
-.LeftContent {
-    text-align: center;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content:center;
-}
-
-#Typed {
-    font-size: 40px
-
-}
-
-a {
-    color: #0275d8;
-    text-decoration: none;
-}
-
-a:hover {
-    opacity: 0.5;
+.hello-text {
+    font-size: 2em;
 }
 
 
 .RightContent {
     text-align: left;
-    width: 525px;
+    width: 550px;
 
+}
+
+#right-text{
+    float: right;
 }
 
 #bold-text {
     font-weight: 700;
 }
 
+#italic-text {
+    font-style:italic;
+}
+
 #wave {
-    width: 20px;
+    width: 32px;
+}
+
+#desc {
+    margin: 0px 0px 10px 0px;
 }
