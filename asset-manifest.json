@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/v2/static/css/main.7724594f.chunk.css",
+    "main.js": "/v2/static/js/main.ccea5de2.chunk.js",
+    "main.js.map": "/v2/static/js/main.ccea5de2.chunk.js.map",
+    "runtime-main.js": "/v2/static/js/runtime-main.7ea28fad.js",
+    "runtime-main.js.map": "/v2/static/js/runtime-main.7ea28fad.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/v2/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.572209fd.chunk.js": "/v2/static/js/2.572209fd.chunk.js",
+    "static/js/2.572209fd.chunk.js.map": "/v2/static/js/2.572209fd.chunk.js.map",
+    "index.html": "/v2/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/v2/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.7724594f.chunk.css.map": "/v2/static/css/main.7724594f.chunk.css.map",
+    "static/js/2.572209fd.chunk.js.LICENSE.txt": "/v2/static/js/2.572209fd.chunk.js.LICENSE.txt",
+    "static/media/tariq.e523ef09.png": "/v2/static/media/tariq.e523ef09.png",
+    "static/media/wave.d9372093.gif": "/v2/static/media/wave.d9372093.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ea28fad.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.572209fd.chunk.js",
+    "static/css/main.7724594f.chunk.css",
+    "static/js/main.ccea5de2.chunk.js"
+  ]
+}
