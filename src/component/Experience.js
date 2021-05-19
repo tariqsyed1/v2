@@ -1,4 +1,5 @@
 import React from 'react'
+import './panel.css'
 
 class Experience extends React.Component {
   componentDidMount() {
@@ -11,8 +12,6 @@ class Experience extends React.Component {
     return (
         <div>
             <p><span id="bold-text">{this.props.name}</span> • {this.props.position} <span id="right-text">{this.props.date}</span></p>
-            <p>{this.props.desc}</p>
-            
         </div>
       );
   }

@@ -1,0 +1,24 @@
+.Tariq {
+    height:auto;
+    width: 250px;
+}
+
+
+
+/*Make icons dim on hover
+Update eventually to show description below icon?*/
+
+a:hover {
+    opacity: 0.5;
+}
+
+.name-leftpane {
+    margin: 10px 0px -12.5px 0px;
+    color: #fff;
+}
+
+.social {
+    height: auto;
+    width: 30px;
+    padding: 40px 15px 0px 15px;
+}
