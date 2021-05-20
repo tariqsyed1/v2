@@ -60,7 +60,7 @@ Extra small devices (phones, 600px and down) */
     flex-direction: row;
   }
   .RightContent {
-    margin: 0px 5% 0px 2.5%;
+    margin: 0px 0px 0px 2.5%;
   }
   .LeftContent {
     margin: 0px 2.5% 0px 0px;
@@ -75,7 +75,7 @@ Extra small devices (phones, 600px and down) */
     flex-direction: row;
   }
   .RightContent {
-    margin: 0px 5% 0px 5%;
+    margin: 0px 0px 0px 5%;
   }
   .LeftContent {
     margin: 0px 5% 0px 0px;
