@@ -1,5 +1,7 @@
 # www.tariqsyed.me - v2
+
 This repository cointains the second iteration of my personal website. Created using create-react-app.
+![screenshot](/public/screenshot.png)
 
 ## Available Scripts
 
