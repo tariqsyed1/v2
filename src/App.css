@@ -13,7 +13,7 @@ Attributes for the entire app. Eg center justification, row justification, font 
   flex-direction:row;
   align-items: center;
   justify-content:center;
-  font-size: 1.25em;
+  font-size: 19px;
   color: #d3d3d3;
   background-color: #101010;
 }
@@ -27,22 +27,33 @@ a {
 Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .App {
-    padding: 10% 0% 25% 0%;
+    padding: 5% 0% 25% 0%;
     flex-direction: column;
+    font-size: 1.5em;
   }
   .LeftContent {
-    zoom: 0.8;
+    zoom: 0.6;
 
   }
   .RightContent {
-    zoom: 0.65;
+    zoom: 0.6;
+    margin: 0% 5% 0% 5%;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .App {
+    padding: 10% 0% 10% 0%;
     flex-direction: column;
+    font-size: 1.2em;
+  }
+  .LeftContent {
+    zoom: 0.9;
+
+  }
+  .RightContent {
+    zoom: 0.9;
   }
 }
 
@@ -58,6 +69,7 @@ Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 992px) {
   .App {
     flex-direction: row;
+    padding: 0px;
   }
   .RightContent {
     margin: 0px 0px 0px 2.5%;
@@ -86,6 +98,14 @@ Extra small devices (phones, 600px and down) */
 
 /* Extra extra large devices (4k screens and TVs, 1200px and up) */
 @media only screen and (min-width: 2000px) {
+  .RightContent {
+    margin: 0px 0px 0px 5%;
+    zoom: 1.5;
+  }
+  .LeftContent {
+    margin: 0px 5% 0px 0px;
+    zoom: 1.5;
+  }
 }
 
 
