@@ -14,7 +14,7 @@ Attributes for the entire app. Eg center justification, row justification, font 
   align-items: center;
   justify-content:center;
   font-size: 19px;
-  color: #d3d3d3;
+  color: #D3D3D3;
   background-color: #101010;
 }
 
@@ -29,7 +29,7 @@ Extra small devices (phones, 600px and down) */
   .App {
     padding: 5% 0% 25% 0%;
     flex-direction: column;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   .LeftContent {
     zoom: 0.6;
@@ -38,6 +38,10 @@ Extra small devices (phones, 600px and down) */
   .RightContent {
     zoom: 0.6;
     margin: 0% 5% 0% 5%;
+  }
+
+  .About {
+    text-align: center;
   }
 }
 
@@ -100,11 +104,11 @@ Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 2000px) {
   .RightContent {
     margin: 0px 0px 0px 5%;
-    zoom: 1.5;
+    zoom: 1.1;
   }
   .LeftContent {
     margin: 0px 5% 0px 0px;
-    zoom: 1.5;
+    zoom: 1.1;
   }
 }
 

@@ -6,23 +6,18 @@ import './panel.css'
 import wave from '../assets/img/wave.gif'
 
 class RightContent extends React.Component {
-  componentDidMount() {
-    return null
-  }
-  componentWillUnmount() {
-    return null
-  }
   render() {
     return (
         <div className="RightContent">
             <div className='About' data-aos='fade-up' data-aos-delay='300'>
                 <p className="hello-text">Hey there! I'm <span id="bold-text">Tariq</span> <img id="wave" src={wave} alt="Wave Emoji" /></p>
-                <p>I'm a <span id="bold-text">third year computer science</span> student at <span id="bold-text">York University</span>, currently searching for <span id="bold-text">Summer 2022</span> co-op opportunities.</p>
+                <p>I'm a <span id="bold-text">third year computer science</span> student at <span id="bold-text">York University</span>, currently searching for <span id="bold-text">2023 Full-Time</span> opportunities.</p>
             </div>
             <div className="Experience" data-aos='fade-up' data-aos-delay='600'>
                 <h2 className="header">EXPERIENCE</h2>
-                <Experience name="PRN Digital" position="Software Engineer (Co-op)" date="Summer 2021" desc=""/>
-                <Experience name="CaseWare" position="Test Developer (Co-op)" date="Winter 2021" desc=""/>
+                <Experience name='Amazon' position='Incoming SDE Intern' date='Summer 2022' desc=''/>
+                <Experience name="BZAM" position="Software Developer Intern" date="Summer 2021" desc=""/>
+                <Experience name="CaseWare" position="Test Developer Intern" date="Spring 2021" desc=""/>
             </div>
             <div className="Projects" data-aos='fade-up' data-aos-delay='900' >
               <h2 className="header" >PROJECTS</h2>
