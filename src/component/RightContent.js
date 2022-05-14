@@ -11,13 +11,13 @@ class RightContent extends React.Component {
         <div className="RightContent">
             <div className='About' data-aos='fade-up' data-aos-delay='300'>
                 <p className="hello-text">Hey there! I'm <span id="bold-text">Tariq</span> <img id="wave" src={wave} alt="Wave Emoji" /></p>
-                <p>I'm a <span id="bold-text">third year computer science</span> student at <span id="bold-text">York University</span>, currently searching for <span id="bold-text">2023 Full-Time</span> opportunities.</p>
+                <p>I'm a <span id="bold-text">third year computer science</span> student at <span id="bold-text">York University</span>. Currently, I'm spending this summer at <span id='bold-text'>Amazon Vancouver</span> as a <span id='bold-text'>Software Development Engineer Intern</span>.</p>
             </div>
             <div className="Experience" data-aos='fade-up' data-aos-delay='600'>
                 <h2 className="header">EXPERIENCE</h2>
-                <Experience name='Amazon' position='Incoming SDE Intern' date='Summer 2022' desc=''/>
+                <Experience name='Amazon' position='SDE Intern' date='Summer 2022' desc=''/>
                 <Experience name="BZAM" position="Software Developer Intern" date="Summer 2021" desc=""/>
-                <Experience name="CaseWare" position="Test Developer Intern" date="Spring 2021" desc=""/>
+                <Experience name="CaseWare" position="Test Developer Intern" date="Winter 2021" desc=""/>
             </div>
             <div className="Projects" data-aos='fade-up' data-aos-delay='900' >
               <h2 className="header" >PROJECTS</h2>
