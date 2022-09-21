@@ -27,14 +27,14 @@ class LeftContent extends React.Component {
             <Typed 
             strings={['Tariq ^10 Syed']}
             typeSpeed={80}
-            startDelay={100}
+            startDelay={500}
             />
           </h1>
           <p id="Subheading">Toronto, Canada | <a href="mailto:hello@tariqsyed.me">hello@tariqsyed.me</a></p>
           <div id="Icons">
-            <a href="https://www.github.com/tariqsyed1/" className="social"><GitHubIcon /></a>
-            <a href="https://www.linkedin.com/in/tariqs1" className="social"><LinkedInIcon /></a>
-            <a href="https://drive.google.com/file/d/1FEpV0M9gKq3ngc0khsWNYkaohejwVCQZ/view?usp=sharing" className="social"><DescriptionIcon /></a>
+            <a href="https://www.github.com/tariqsyed1/" target="_blank" rel="noreferrer" className="social"><GitHubIcon /></a>
+            <a href="https://www.linkedin.com/in/tariqs1" target="_blank" rel="noreferrer" className="social"><LinkedInIcon /></a>
+            <a href="https://drive.google.com/file/d/1FEpV0M9gKq3ngc0khsWNYkaohejwVCQZ/view?usp=sharing" target="_blank" rel="noreferrer" className="social"><DescriptionIcon /></a>
           </div>
 
         </div>
